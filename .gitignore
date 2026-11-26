@@ -1,0 +1,7 @@
+source-backup/
+.env
+.env.*
+node_modules/
+.openai/
+*.sqlite
+*.db
