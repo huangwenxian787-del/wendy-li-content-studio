@@ -1,0 +1,21 @@
+{
+  "name": "wendy-li-content-studio",
+  "main": "worker.mjs",
+  "compatibility_date": "2026-11-23",
+  "assets": {
+    "directory": "public",
+    "binding": "ASSETS",
+    "run_worker_first": [
+      "/admin",
+      "/admin/*",
+      "/api/*"
+    ]
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "wendy-leads",
+      "database_id": "71946bbc-0505-43e1-b458-2c7461388705"
+    }
+  ]
+}
